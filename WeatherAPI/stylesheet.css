@@ -28,6 +28,7 @@
   font-size: 60px;
   font-weight: 700;
   text-shadow: #000000 2px 2px 3px;
+  transition: all .3s;
   margin: 0;
   color: #fff;
 }
