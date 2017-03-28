@@ -1,3 +1,3 @@
 # MyFirstRaspberriApp
-Prints weather information collected from darkskys' api and safes it to mongoDB when clicked. 
+Prints weather information collected from darkskys' api and saves it to mongoDB when clicked. 
 
