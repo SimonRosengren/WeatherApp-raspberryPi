@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser'); //Nödvändigt?
 const MongoClient = require('mongodb').MongoClient
-const port = 3000;
+const port = 80;
 MongoClient.connect('mongodb://simon:simon@ds041526.mlab.com:41526/testtempdb', function(err, database){
     if (err) return console.log(err)
     
