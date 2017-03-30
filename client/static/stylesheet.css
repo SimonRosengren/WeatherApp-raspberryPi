@@ -1,5 +1,5 @@
 .body {
-  background-color: #000000;
+  background-image: url('http://more-sky.com/data/out/10/IMG_376115.png');
 }
 .jumbotron {
   display: flex;
@@ -21,11 +21,12 @@
   color: #fff;
 }
 .jumbotron h1:hover {
-    font-size: 65px;
+  font-size: 105px;
    text-shadow: #000000 2px 8px 8px;
 }
 .jumbotron h1 {
-  font-size: 60px;
+  font-size: 90px;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: 700;
   text-shadow: #000000 2px 2px 3px;
   transition: all .3s;

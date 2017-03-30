@@ -1,19 +1,27 @@
 <!doctype html>
 <html>
-    <head>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>          
-        <script type="text/javascript" src="/static/client.js"></script>
-        <link rel="stylesheet" href="/static/stylesheet.css" /> 
-    </head>
-    <body>
+
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">google.charts.load('current', { packages: ['corechart'] });</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/client.js"></script>
+    <script type="text/javascript" src="/static/chart.js"></script>
+    <link rel="stylesheet" href="/static/stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+</head>
+
+<body>
 
     <section class="jumbotron">
         <div class="container">
             <div class="row text-center">
                 <h1 id="temperature"></h1>
-             </form>
+                <div id="chart_div"></div>
+                </form>
             </div>
-         </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
+
 </html>

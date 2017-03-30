@@ -51,6 +51,7 @@ function initialize() {
 
         weatherApi.temperature = temp;
         printTemp(temp);
+        drawLogScales();
         addToDatabase(temp);
     }
 
