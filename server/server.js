@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const database = require('./db');
 
-const port = 8080;
+const port = 80;
 const app = express();
 
 // Middlewares
